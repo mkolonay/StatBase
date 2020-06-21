@@ -1,4 +1,4 @@
-"""myStats - pyton code for the textbook examples"""
+"""myStats - python code for the textbook examples"""
 import matplotlib.pyplot as plt
 import numpy as np
 import scipy
@@ -130,7 +130,6 @@ class MyStats:
             sd = round(sd, 2)
             return {'mean': mean, 'variance': variance, 'sd': sd}
 
-
     class DiscreteProbabilityDistribution:
         def __init__(self):
             pass
@@ -152,8 +151,6 @@ class MyStats:
             display(Latex(r'$ \sigma =  %s $' % sd))
             print('****************************')
             return sd
-
-
 
     class ZValues:
         def __init__(self):
